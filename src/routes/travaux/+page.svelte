@@ -4,7 +4,7 @@
 
 <div
 	id="background-text "
-	class="pointer-events-none absolute z-0 w-full h-full top-0 bottom-0 inset-0"
+	class="pointer-events-none absolute z-0 w-full h-full top-0 left-0 inset-0"
 >
 	<div class="relative flex text-[#111111] text-stroke-3">
 		<div
@@ -18,7 +18,7 @@
 		</div>
 
 		<div
-			class="absolute py-4 uppercase flex-col flex top-0 animate-marquee-down opacity-70 whitespace-nowrap h-screen text-[#111111] text-stroke-3"
+			class="absolute bottom-0 py-4 uppercase flex-col flex top-0 animate-marquee-down opacity-70 whitespace-nowrap h-screen text-[#111111] text-stroke-3"
 		>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
@@ -28,6 +28,7 @@
 		</div>
 	</div>
 </div>
+
 <section class="px-16 relative z-10">
 	<div class="">
 		<h1 class="text-2xl text-white text-center font-Crusader">Travaux</h1>

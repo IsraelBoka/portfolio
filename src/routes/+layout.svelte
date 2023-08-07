@@ -4,7 +4,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="container h-full">
+<div class="container">
 	<nav class="flex justify-between py-8 px-16 relative z-10">
 		<div class="text-white h-12 text-sm font-bold flex">
 			<div class="h-12 w-1.5 bg-white" />
@@ -44,20 +44,28 @@
 				/>
 			</a>
 
-			<a href={''} class="inline-flex flex-row-reverse justify-between group">
-				<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
+			<a href={`${base}/education`} class="inline-flex flex-row-reverse justify-between group">
+				<div
+					class:text-white={$page.url.pathname === `${base}/education`}
+					class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors"
+				>
 					Education
 				</div>
 				<div
+					class:bg-[length:100%_2px]={$page.url.pathname === `${base}/education`}
 					class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
 				/>
 			</a>
 
-			<a href={''} class="inline-flex flex-row-reverse justify-between group">
-				<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
+			<a href={`${base}/contact`} class="inline-flex flex-row-reverse justify-between group">
+				<div
+					class:text-white={$page.url.pathname === `${base}/contact`}
+					class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors"
+				>
 					Contact
 				</div>
 				<div
+					class:bg-[length:100%_2px]={$page.url.pathname === `${base}/contact`}
 					class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
 				/>
 			</a>
@@ -81,13 +89,13 @@
 		{#if $page.url.pathname === '/education'}
 			<span
 				class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
-				>02</span
+				>02.</span
 			>
 		{/if}
 		{#if $page.url.pathname === '/contact'}
 			<span
 				class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
-				>03</span
+				>03.</span
 			>
 		{/if}
 	</footer>
