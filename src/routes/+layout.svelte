@@ -90,7 +90,7 @@
 	</nav>
 	<slot />
 
-	<footer class="flex justify-end pt-20 pb-4 px-16">
+	<footer class="flex justify-end pb-4 px-16">
 		{#if $page.url.pathname === '/'}
 			<span
 				class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
