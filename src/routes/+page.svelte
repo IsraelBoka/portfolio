@@ -5,7 +5,7 @@
 
 <section class="">
 	<div id="background-text " class="pointer-events-none absolute z-0 w-full">
-		<div class="relative flex overflow-x-hidden text-[#111111] text-stroke-3">
+		<div class="relative flex overflow-x-hidden text-[#111111] opacity-70 text-stroke-3">
 			<div class="py-4 uppercase animate-marquee whitespace-nowrap">
 				<span class="text-5xl lg:text-9xl mx-4">Kyrie </span>
 				<span class="text-5xl lg:text-9xl mx-4">eleison </span>
@@ -14,7 +14,7 @@
 			</div>
 
 			<div
-				class="absolute py-4 uppercase top-0 animate-marquee2 whitespace-nowrap text-[#111111] text-stroke-3"
+				class="absolute py-4 uppercase top-0 opacity-70 animate-marquee2 whitespace-nowrap text-[#111111] text-stroke-3"
 			>
 				<span class="text-5xl lg:text-9xl mx-4">Kyrie </span>
 				<span class="text-5xl lg:text-9xl mx-4">eleison </span>

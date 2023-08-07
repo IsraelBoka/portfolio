@@ -7,7 +7,9 @@
 	class="pointer-events-none absolute z-0 w-full h-full top-0 bottom-0 inset-0"
 >
 	<div class="relative flex text-[#111111] text-stroke-3">
-		<div class="py-4 uppercase flex-col flex animate-marquee-up whitespace-nowrap h-screen">
+		<div
+			class="py-4 uppercase flex-col flex animate-marquee-up whitespace-nowrap h-screen opacity-70"
+		>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
@@ -16,7 +18,7 @@
 		</div>
 
 		<div
-			class="absolute py-4 uppercase flex-col flex top-0 animate-marquee-down whitespace-nowrap h-screen text-[#111111] text-stroke-3"
+			class="absolute py-4 uppercase flex-col flex top-0 animate-marquee-down opacity-70 whitespace-nowrap h-screen text-[#111111] text-stroke-3"
 		>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
 			<span class="text-5xl lg:text-7xl mx-4 my-4">Travaux </span>
