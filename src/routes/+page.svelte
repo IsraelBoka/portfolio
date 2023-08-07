@@ -1,8 +1,5 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { page } from '$app/stores';
-
-	console.log('la page est : ', $page.url.pathname);
 </script>
 
 <nav class="flex justify-between py-8 px-16">
