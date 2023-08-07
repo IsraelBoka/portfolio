@@ -7,7 +7,7 @@
 	<div class="grid lg:grid-cols-2 my-8">
 		<div class="border-white p-2 border-2 rounded">
 			<img
-				src={`${base}/images/projet_orientation.webp`}
+				src="images/projet_orientation.webp"
 				alt="Image du projet orientation"
 				class="rounded"
 				aria-hidden="true"
@@ -42,7 +42,7 @@
 		</div>
 		<div class="border-white p-2 border-2 rounded">
 			<img
-				src={`${base}/images/projet_dabara.webp`}
+				src="images/projet_dabara.webp"
 				alt="Image du projet dabara"
 				class="rounded"
 				aria-hidden="true"
