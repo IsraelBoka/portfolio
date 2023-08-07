@@ -3,8 +3,8 @@
 	import { page } from '$app/stores';
 </script>
 
-<section class="">
-	<div id="background-text " class="pointer-events-none absolute z-0 w-full">
+<section class="pb-20">
+	<div id="background-text " class="pointer-events-none select-none absolute z-0 w-full">
 		<div class="relative flex overflow-x-hidden text-[#111111] opacity-70 text-stroke-3">
 			<div class="py-4 uppercase animate-marquee whitespace-nowrap">
 				<span class="text-5xl lg:text-9xl mx-4">Kyrie </span>
@@ -32,9 +32,3 @@
 		</p>
 	</div>
 </section>
-
-<style>
-	.text-stroke-3 {
-		text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-	}
-</style>

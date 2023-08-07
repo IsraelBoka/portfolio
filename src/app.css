@@ -11,6 +11,10 @@ html {
 	display: none;
 }
 
+.text-stroke-3 {
+	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
 @layer base {
 	@font-face {
 		font-family: 'Founders_Grotesk';
