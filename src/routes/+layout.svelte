@@ -4,7 +4,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="container h-screen">
+<div class="container">
 	<nav class="flex justify-between py-8 px-16">
 		<div class="text-white h-12 text-sm font-bold flex">
 			<div class="h-12 w-1.5 bg-white" />
@@ -75,8 +75,8 @@
 		{#if $page.url.pathname === '/travaux'}
 			<span
 				class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
-				>01</span
-			>
+				>01.
+			</span>
 		{/if}
 		{#if $page.url.pathname === '/education'}
 			<span
