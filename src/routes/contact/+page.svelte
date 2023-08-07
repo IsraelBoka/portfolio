@@ -1,3 +1,28 @@
+<div
+	id="background-text "
+	class="pointer-events-none select-none absolute z-0 w-full h-full overflow-y-hidden left-0 top-0"
+>
+	<div class="relative text-[#111111] opacity-20 lg:opacity-50 text-stroke-3">
+		<div class=" flex flex-col uppercase animate-marquee-up whitespace-nowrap">
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+		</div>
+
+		<div
+			class="absolute flex flex-col top-0 uppercase opacity-20 lg:opacity-50 animate-marquee-down whitespace-nowrap text-[#111111] text-stroke-3"
+		>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+			<span class="text-5xl lg:text-7xl mx-4">CONTACT </span>
+		</div>
+	</div>
+</div>
+
 <section class="px-16 pb-20">
 	<h1 class="text-2xl text-center text-white font-Crusader">Contactez-moi</h1>
 	<div class="text-lg flex flex-col gap-4 text-white font-bold lg:text-2xl lg:px-36 pt-6">
