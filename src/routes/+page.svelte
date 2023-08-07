@@ -23,7 +23,7 @@
 				A propos
 			</div>
 			<div
-				class:{bg-[length:100%_2px]}={$page.url.pathname === '/'}
+				class:bg-[length:100%_2px]={$page.url.pathname === '/'}
 				class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
 			/>
 		</a>
