@@ -2,7 +2,15 @@
 	import { base } from '$app/paths';
 </script>
 
-<nav class="flex justify-end py-8 px-16">
+<nav class="flex justify-between py-8 px-16">
+	<div class="text-white text-sm font-bold flex">
+		<div class="h-1/2 w-1 bg-white" />
+		<div class="flex flex-col items-center mx-1 my-2">
+			<div>Mon CV</div>
+			<div>Portfolio</div>
+		</div>
+	</div>
+
 	<li class="text-white flex flex-col gap-2 uppercase font-Founders">
 		<a href={''} class="inline-flex flex-row-reverse justify-between group">
 			<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
@@ -43,7 +51,7 @@
 </nav>
 
 <section>
-	<div id="background-text " class="pointer-events-none absolute z-0 w-screen">
+	<div id="background-text " class="pointer-events-none absolute z-0 w-full">
 		<div class="relative flex overflow-x-hidden text-[#111111] text-stroke-3">
 			<div class="py-4 uppercase animate-marquee whitespace-nowrap">
 				<span class="text-5xl lg:text-9xl mx-4">Kyrie </span>
@@ -71,6 +79,13 @@
 		</p>
 	</div>
 </section>
+
+<footer class="flex justify-end px-16 py-20">
+	<span
+		class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
+		>00</span
+	>
+</footer>
 
 <style>
 	.text-stroke-3 {
