@@ -4,13 +4,30 @@
 	import { base } from '$app/paths';
 </script>
 
+<head>
+	<title>
+		{#if $page.url.pathname === `${base}/`}
+			Israel Boka
+		{:else if $page.url.pathname === `${base}/travaux`}
+			Les 12 travaux d'Hercule
+		{:else if $page.url.pathname === `${base}/education`}
+			Israel Boka | Education et Expérience
+		{:else if $page.url.pathname === `${base}/contact`}
+			Israel Boka | Me contacter
+		{/if}
+	</title>
+</head>
 <div class="container">
 	<nav class="flex justify-between py-8 px-16 relative z-10">
 		<div class="text-white h-12 text-sm font-bold flex">
 			<div class="h-12 w-1.5 bg-white" />
 			<div class="flex flex-col items-center justify-center mx-1 my-2">
-				<div>Mon CV</div>
-				<div>Portfolio</div>
+				<a href="resume.pdf" class="hover:opacity-80 transition-colors" download="CV_BOKA_ISRAEL"
+					>Mon CV</a
+				>
+				<a href="https://dabara.tech/Israelboka" class="hover:opacity-80 transition-colors"
+					>Portfolio</a
+				>
 			</div>
 		</div>
 
