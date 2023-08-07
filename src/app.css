@@ -23,4 +23,12 @@ html {
 		font-weight: bold;
 		font-display: swap;
 	}
+
+	@font-face {
+		font-family: 'Crusader';
+		src: local('Crusader'), local('Crusader'), local('Crusader'), local('Crusader'),
+			url('/fonts/Crusader_Dark/Crusader_Dark.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
 }

@@ -1,63 +1,9 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-
-	console.log('la page est : ', $page.url.pathname);
 </script>
 
-<nav class="flex justify-between py-8 px-16">
-	<div class="text-white text-sm font-bold flex">
-		<div class="h-1/2 w-1 bg-white" />
-		<div class="flex flex-col items-center mx-1 my-2">
-			<div>Mon CV</div>
-			<div>Portfolio</div>
-		</div>
-	</div>
-
-	<li class="text-white flex flex-col gap-2 uppercase font-Founders">
-		<a href={''} class=" inline-flex flex-row-reverse justify-between group active:text-red-500">
-			<div
-				class:text-white={$page.url.pathname === '/'}
-				class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors"
-			>
-				A propos
-			</div>
-			<div
-				class:bg-[length:100%_2px]={$page.url.pathname === '/'}
-				class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
-			/>
-		</a>
-
-		<a href={''} class="inline-flex flex-row-reverse justify-between group">
-			<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
-				Travaux
-			</div>
-			<div
-				class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
-			/>
-		</a>
-
-		<a href={''} class="inline-flex flex-row-reverse justify-between group">
-			<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
-				Education
-			</div>
-			<div
-				class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
-			/>
-		</a>
-
-		<a href={''} class="inline-flex flex-row-reverse justify-between group">
-			<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
-				Contact
-			</div>
-			<div
-				class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
-			/>
-		</a>
-	</li>
-</nav>
-
-<section>
+<section class="">
 	<div id="background-text " class="pointer-events-none absolute z-0 w-full">
 		<div class="relative flex overflow-x-hidden text-[#111111] text-stroke-3">
 			<div class="py-4 uppercase animate-marquee whitespace-nowrap">
@@ -79,20 +25,13 @@
 	</div>
 	<div class="flex mt-16 flex-col justify-center items-center font-bold text-white z-10 relative">
 		<h2 class="uppercase text-2xl">Salut, Je suis</h2>
-		<h1 class="uppercase text-5xl lg:text-7xl">BOKA ISRAEL</h1>
+		<h1 class="uppercase font-Crusader text-5xl lg:text-9xl">BOKA ISRAEL</h1>
 		<p class="text-xl lg:text-3xl text-center lg:px-24">
-			I&apos;m a creative developer from Abidjan with a passion for CSS, animation, developer
-			experience, and deleting code.
+			Je suis un développeur créatif d'Abidjan passionné par le CSS, les animations, l'expérience de
+			développement et l'art de supprimer du code.
 		</p>
 	</div>
 </section>
-
-<footer class="flex justify-end px-16 py-20">
-	<span
-		class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
-		>00</span
-	>
-</footer>
 
 <style>
 	.text-stroke-3 {

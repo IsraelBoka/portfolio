@@ -9,7 +9,8 @@ export default {
 				tertiary: '#AC88B8'
 			},
 			fontFamily: {
-				Founders: ['Founders_Grotesk']
+				Founders: ['Founders_Grotesk'],
+				Crusader: ['Crusader']
 			},
 			keyframes: {
 				marquee: {
