@@ -26,10 +26,10 @@
 <section class="px-16 relative z-10">
 	<h1 class="text-2xl text-white font-Crusader text-center">Experience</h1>
 	<div class="text-lg flex flex-col gap-4 text-white font-bold lg:text-2xl px-36 pt-6">
-		Depuis 2018, je me suis spécialisé dans le développement d'interfaces mettant l'accent sur
-
+		Depuis 2018, je me suis spécialisé dans le développement d'interfaces interactives avec un fort
+		accent sur le Web.
 		<div>
-			je reste ouvert aux nouvelles opportunités dans le domaine du développement. N'hésitez pas à
+			Je reste ouvert aux nouvelles opportunités dans le domaine du développement. N'hésitez pas à
 			consulter mon <a
 				href="resume.pdf"
 				class="hover:opacity-80 transition-colors underline"
