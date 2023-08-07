@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { page } from '$app/stores';
+
+	console.log('la page est : ', $page.url.pathname);
 </script>
 
 <nav class="flex justify-between py-8 px-16">
@@ -12,11 +15,15 @@
 	</div>
 
 	<li class="text-white flex flex-col gap-2 uppercase font-Founders">
-		<a href={''} class="inline-flex flex-row-reverse justify-between group">
-			<div class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors">
+		<a href={'/'} class=" inline-flex flex-row-reverse justify-between group active:text-red-500">
+			<div
+				class:text-white={$page.url.pathname === '/'}
+				class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors"
+			>
 				A propos
 			</div>
 			<div
+				class:bg-[length:100%_2px]={$page.url.pathname === '/'}
 				class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
 			/>
 		</a>
