@@ -1,11 +1,13 @@
-<script></script>
+<script>
+	import { base } from '$app/paths';
+</script>
 
 <section class="px-16">
 	<h1 class="text-2xl text-white text-center font-Crusader">Travaux</h1>
 	<div class="grid lg:grid-cols-2 my-8">
 		<div class="border-white p-2 border-2 rounded">
 			<img
-				src={`/images/projet_orientation.webp`}
+				src={`${base}/images/projet_orientation.webp`}
 				alt="Image du projet orientation"
 				class="rounded"
 				aria-hidden="true"
@@ -40,7 +42,7 @@
 		</div>
 		<div class="border-white p-2 border-2 rounded">
 			<img
-				src={`/images/projet_dabara.webp`}
+				src={`${base}/images/projet_dabara.webp`}
 				alt="Image du projet dabara"
 				class="rounded"
 				aria-hidden="true"
