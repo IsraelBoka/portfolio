@@ -2,4 +2,6 @@
 	import { base } from '$app/paths';
 </script>
 
-<h1 class="text-2xl font-bold underline">Portfolio !!</h1>
+<div class="min-h-screen bg-black">
+	<h1 class="text-2xl font-bold underline text-primary">Mon portfolio</h1>
+</div>
