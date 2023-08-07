@@ -10,8 +10,8 @@
 			Israel Boka
 		{:else if $page.url.pathname === `${base}/travaux`}
 			Les 12 travaux d'Hercule
-		{:else if $page.url.pathname === `${base}/education`}
-			Israel Boka | Education et Expérience
+		{:else if $page.url.pathname === `${base}/experience`}
+			Israel Boka | Experience
 		{:else if $page.url.pathname === `${base}/contact`}
 			Israel Boka | Me contacter
 		{/if}
@@ -61,15 +61,15 @@
 				/>
 			</a>
 
-			<a href={`${base}/education`} class="inline-flex flex-row-reverse justify-between group">
+			<a href={`${base}/experience`} class="inline-flex flex-row-reverse justify-between group">
 				<div
-					class:text-white={$page.url.pathname === `${base}/education`}
+					class:text-white={$page.url.pathname === `${base}/experience`}
 					class="text-sm font-bold text-gray-300 group-hover:text-white transition-colors"
 				>
-					Education
+					experience
 				</div>
 				<div
-					class:bg-[length:100%_2px]={$page.url.pathname === `${base}/education`}
+					class:bg-[length:100%_2px]={$page.url.pathname === `${base}/experience`}
 					class=" w-6 h-0.5 my-2 mx-1 bg-right-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-300 ease-out"
 				/>
 			</a>
@@ -103,7 +103,7 @@
 				>01.
 			</span>
 		{/if}
-		{#if $page.url.pathname === '/education'}
+		{#if $page.url.pathname === '/experience'}
 			<span
 				class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"
 				>02.</span

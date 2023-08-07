@@ -1,7 +1,3 @@
-<script>
-	import { base } from '$app/paths';
-</script>
-
 <div
 	id="background-text "
 	class="pointer-events-none absolute z-0 w-full h-full top-0 left-0 inset-0"
