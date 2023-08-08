@@ -1,7 +1,30 @@
-<script>
+<script lang="ts">
 	import '../app.css';
+
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
+	import { coordsStore } from '../stores/coordsStore'; // Adjust the path accordingly
+	import { onMount } from 'svelte';
+
+	let coords = {
+		x: 0,
+		y: 0
+	};
+
+	onMount(() => {
+		const handleMouseMove = (e: MouseEvent) => {
+			coords.x = e.clientX;
+			coords.y = e.clientY;
+			coordsStore.set(coords);
+		};
+
+		window.addEventListener('mousemove', handleMouseMove);
+
+		// Clean up event listener on component unmount
+		return () => {
+			window.removeEventListener('mousemove', handleMouseMove);
+		};
+	});
 </script>
 
 <head>

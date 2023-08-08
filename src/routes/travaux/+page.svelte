@@ -1,19 +1,22 @@
 <script lang="ts">
+	import { coordsStore } from '../../stores/coordsStore'; // Adjust the path accordingly
+
 	const coords = {
 		x: 0,
 		y: 0
 	};
 
-	const handleMouseMove = (e: MouseEvent) => {
-		coords.x = e.clientX;
-		coords.y = e.clientY;
-	};
+	// Subscribe to the coordsStore
+	coordsStore.subscribe((value) => {
+		coords.x = value.x;
+		coords.y = value.y;
+	});
 </script>
 
-<div on:mousemove={(e) => handleMouseMove(e)} aria-hidden="true" class="w-full h-screen pt-36">
+<div class="w-full h-screen pt-36">
 	<div
-		style="transform: translateY(calc({coords.y / 100}%))"
-		class={`fixed inset-y-0 left-0 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase `}
+		style="transform: translateY(calc({coords.y / 100}% ))"
+		class={`transition-all  ease-in-out fixed inset-y-0 left-0 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase `}
 	>
 		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
@@ -26,25 +29,13 @@
 		>
 
 		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
-			>Travaux-</span
-		>
-
-		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
-			>Travaux-</span
-		>
-
-		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
-			>Travaux-</span
-		>
-
-		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 	</div>
 
 	<div
 		style="transform: translateY(calc(-{coords.y / 100}%))"
-		class="fixed inset-y-0 left-32 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase"
+		class="transition-all ease-in-out fixed inset-y-0 left-32 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase"
 	>
 		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
@@ -53,15 +44,11 @@
 			>Travaux-</span
 		>
 
-		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
-			>Travaux-</span
-		>
-
-		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 	</div>
@@ -89,7 +76,7 @@
 								Orientation&Apprentissage</a
 							> est une plateforme en ligne conçue pour aider les utilisateurs à découvrir leurs futures
 							voies éducatives et professionnelles.Cette plateforme a été développée en utilisant le
-							framework Laravel, garantissant une expérience de navigation idéale.
+							framework Laravel, garantissant une expérience de navigation idéeale.
 						</p>
 					</div>
 				</div>
