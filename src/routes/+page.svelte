@@ -5,8 +5,8 @@
 
 <section class="pb-20 pt-36">
 	<div id="background-text " class="pointer-events-none select-none absolute z-0 w-full">
-		<div class="relative flex overflow-x-hidden text-[#111111] opacity-20 text-stroke-3">
-			<div class="py-4 uppercase animate-marquee whitespace-nowrap">
+		<div class="relative flex overflow-x-hidden text-[#111111] text-stroke-3">
+			<div class="py-4 uppercase animate-marquee whitespace-nowrap opacity-20">
 				<span class="text-5xl lg:text-9xl mx-4">Kyrie </span>
 				<span class="text-5xl lg:text-9xl mx-4">eleison </span>
 				<span class="text-5xl lg:text-9xl mx-4">Christe </span>

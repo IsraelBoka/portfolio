@@ -2,8 +2,8 @@
 	id="background-text "
 	class="pointer-events-none select-none absolute z-0 w-full h-full overflow-y-hidden left-0 top-0"
 >
-	<div class="relative text-[#111111] opacity-20 text-stroke-3">
-		<div class=" flex flex-col uppercase animate-marquee-up whitespace-nowrap">
+	<div class="relative text-[#111111] text-stroke-3">
+		<div class=" flex flex-col uppercase animate-marquee-up whitespace-nowrap opacity-20">
 			<span class="text-5xl lg:text-7xl mx-4">EXPERIENCE </span>
 			<span class="text-5xl lg:text-7xl mx-4">EXPERIENCE </span>
 			<span class="text-5xl lg:text-7xl mx-4">EXPERIENCE </span>
