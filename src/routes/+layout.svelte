@@ -17,8 +17,8 @@
 		{/if}
 	</title>
 </head>
-<div class="container">
-	<nav class=" flex justify-between py-8 px-16 relative z-10">
+<div class="container mx-auto">
+	<nav class=" flex justify-between py-8 px-16 fixed top-0 left-0 right-0 z-20">
 		<div class="text-white h-12 text-sm font-bold flex">
 			<div class="h-12 w-1.5 bg-white" />
 			<div class="flex flex-col items-center justify-center mx-1 my-2">
@@ -90,7 +90,7 @@
 	</nav>
 	<slot />
 
-	<footer class="flex justify-end pb-4 px-16">
+	<footer class="flex justify-end pb-4 px-16 fixed bottom-0 left-0 right-0">
 		{#if $page.url.pathname === '/'}
 			<span
 				class=" text-4xl font-bold text-white bg-gradient-to-r from-white to-white bg-bottom bg-no-repeat bg-[length:100%_6px] transition-[background-size]"

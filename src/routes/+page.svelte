@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<section class="pb-20">
+<section class="pb-20 pt-36">
 	<div id="background-text " class="pointer-events-none select-none absolute z-0 w-full">
 		<div class="relative flex overflow-x-hidden text-[#111111] opacity-70 text-stroke-3">
 			<div class="py-4 uppercase animate-marquee whitespace-nowrap">

@@ -10,75 +10,63 @@
 	};
 </script>
 
-<div on:mousemove={(e) => handleMouseMove(e)} aria-hidden="true" class="w-full h-full">
+<div on:mousemove={(e) => handleMouseMove(e)} aria-hidden="true" class="w-full h-full pt-36">
 	<div
 		style="transform: translateY(calc({coords.y / 10}px))"
-		class={`fixed inset-y-0 left-0 h-full flex flex-col gap-72 items-center px-16 -py-10 uppercase`}
+		class={`fixed inset-y-0 left-0 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase `}
 	>
-		<span
-			class="text-5xl lg:text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
-		<span
-			class="text-5xl lg:text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
-		<span
-			class="text-5xl lg:text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span
-			class="text-5xl lg:text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span
-			class="text-5xl lg:text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 	</div>
 
 	<div
 		style="transform: translateY(calc(-{coords.y / 10}px))"
-		class="fixed inset-y-0 left-32 h-full flex flex-col gap-72 items-center px-16 -py-10 uppercase"
+		class="fixed inset-y-0 left-32 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase"
 	>
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
-			>Travaux-</span
-		>
-
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 
-		<span
-			class="text-5xl lg:text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
+			>Travaux-</span
+		>
+
+		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
 			>Travaux-</span
 		>
 	</div>
 
-	<section class="px-16 relative z-10">
+	<section class="px-36 relative z-10">
 		<div class="">
 			<h1 class="text-2xl text-white text-center font-Crusader">Travaux</h1>
 			<div class="gap-2 flex flex-col">
