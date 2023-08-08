@@ -10,9 +10,9 @@
 	};
 </script>
 
-<div on:mousemove={(e) => handleMouseMove(e)} aria-hidden="true" class="w-full h-full pt-36">
+<div on:mousemove={(e) => handleMouseMove(e)} aria-hidden="true" class="w-full h-screen pt-36">
 	<div
-		style="transform: translateY(calc({coords.y / 10}px))"
+		style="transform: translateY(calc({coords.y / 100}%))"
 		class={`fixed inset-y-0 left-0 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase `}
 	>
 		<span class="text-8xl rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
@@ -43,7 +43,7 @@
 	</div>
 
 	<div
-		style="transform: translateY(calc(-{coords.y / 10}px))"
+		style="transform: translateY(calc(-{coords.y / 100}%))"
 		class="fixed inset-y-0 left-32 opacity-10 h-full flex flex-col gap-72 items-center px-36 -py-10 uppercase"
 	>
 		<span class="text-8xl -rotate-90 p-4 transform origin-left text-stroke-3 text-[#111111]"
@@ -71,7 +71,7 @@
 			<h1 class="text-2xl text-white text-center font-Crusader">Travaux</h1>
 			<div class="gap-2 flex flex-col">
 				<div class="grid lg:grid-cols-2 my-8">
-					<div class="border-white p-2 border-2 rounded">
+					<div class="">
 						<img
 							src="images/projet_orientation.webp"
 							alt="Image du projet orientation"
@@ -89,14 +89,13 @@
 								Orientation&Apprentissage</a
 							> est une plateforme en ligne conçue pour aider les utilisateurs à découvrir leurs futures
 							voies éducatives et professionnelles.Cette plateforme a été développée en utilisant le
-							puissant framework Laravel, garantissant une expérience fluide et robuste pour chaque utilisateur.
-							C'est une boussole guidant vers un avenir gratifiant et réussi.
+							framework Laravel, garantissant une expérience de navigation idéale.
 						</p>
 					</div>
 				</div>
 
 				<div class="grid lg:grid-cols-2 my-8">
-					<div class="border-white p-2 border-2 lg:order-2 rounded">
+					<div class=" lg:order-2">
 						<img
 							src="images/projet_dabara.webp"
 							alt="Image du projet dabara"
@@ -114,14 +113,13 @@
 								Dabara</a
 							> est une application web novatrice conçue pour permettre aux individus de créer des portfolios
 							professionnels exceptionnels. En combinant des technologies modernes telles que React,
-							TypeScript et Tailwind CSS, Dabara offre une expérience fluide et conviviale pour mettre
-							en valeur les projets, les compétences et les réalisations de chaque utilisateur.
+							TypeScript et Tailwind CSS.
 						</p>
 					</div>
 				</div>
 
 				<div class="grid lg:grid-cols-2 my-8">
-					<div class="border-white p-2 border-2 rounded">
+					<div class="">
 						<img
 							src="images/projet_chap.webp"
 							alt="Image du projet chap"
