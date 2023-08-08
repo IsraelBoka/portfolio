@@ -53,7 +53,7 @@
 		>
 	</div>
 
-	<section class="px-36 relative z-10">
+	<section class="px-8 lg:px-36 relative z-10">
 		<div class="">
 			<h1 class="text-2xl text-white text-center font-Crusader">Travaux</h1>
 			<div class="gap-2 flex flex-col">
